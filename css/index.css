@@ -1,0 +1,49 @@
+*{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+html,body,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+html,body{width: 100%;height: 100%;font-family: "微软雅黑";}
+body{max-width: 640px;margin: 0 auto;}
+.screen{position:relative;width: 100%;height: 100%;display: none;}
+.screen.active,.layer.active,#layer3-7.active{display: block;}
+.hide{display: none;}
+/*s1*/
+.s1,.s2,.s3{background: #a0b744;}
+#s1-t1{position: absolute;left: 50%;top:50%;margin-left: -140px;margin-top: -130px;width: 280px;
+font-size: 17.97px;line-height:35.83px;color: #fff;text-align: center;font-family: "微软雅黑";}
+#s2-img1{position: absolute;left: 50%;top:50%;margin-left: -160px;margin-top: -135px;width: 320px;}
+#s2-img2{position: absolute;left:50%;top:60%;margin-left:-57px;width: 114px;height: 80px;
+}
+#s2-t1{position: absolute;left: 50%;bottom: 40px;margin-left: -160px;width: 320px;
+font-size: 18.68px;color: #fff;text-align: center;opacity: 1;
+}
+.s3{overflow: hidden;}
+.stu-1{position: absolute;width: 320px;}
+.stu-2{position: absolute;width: 320px;}
+.stu-3{position: absolute;width: 320px;}
+.s3-arrowup{position: absolute;width :30px;left: 50%;top:85%;margin-left: -15px;}
+.s3-t1{position: absolute;width :320px;left: 50%;top:92%;margin-left: -160px;text-align: center;color: #fff;font-size:15px;}
+
+.s4,.s5{overflow: hidden;}
+.s4-img1{position: absolute;width: 200%;left: -100%;top:0;height: 100%;}
+.s4-bg{position: absolute;width: 100%;height: 100%;background:#334b59;opacity: 0.9;}
+#s4-t1{font-size: 18px;color: #fff;position: absolute;width: 320px;left: 50%;margin-left: -160px;top:15%;text-align: center;}
+#s4-logo{position: absolute;width: 320px;left: 50%;margin-left: -160px;top:80%;}
+.s5-img1{position: absolute;width: 200%;left: -100%;top:0;height: 100%;}
+#s5-img1{position: absolute;width: 68px;right: 5%;top:3%;}
+#s5-img2{position: absolute;width: 46px;right:35%;top:7%;}
+#s5-t1{position: absolute;width: 320px;left: 50%;margin-left: -160px;text-align: center;font-size: 15.225px;top:18%;color: #fff;}
+#s5-t2{position: absolute;width: 320px;left: 50%;margin-left: -160px;text-align: center;font-size: 15.225px;top: 30%;color: #a7cc39;}
+#s5-t3{position: absolute;width: 320px;left: 50%;margin-left: -160px;text-align: center;top:50%;color: #dba12d;font-size: 13px;}
+#s5-img3{position: absolute;width: 77px;left: 50%;margin-left: -39px;top:54%;}
+#s5-img4{position: absolute;width: 75px;height: 75px;left: 50%;margin-left: -38px;top:67%;}
+#s5-t4{position: absolute;width: 320px;left: 50%;margin-left: -160px;top:87%;font-size: 12px;text-align: center;color: #fff;}
+
+.layer{position: fixed;z-index: 999;display: none;background: #a0b744;
+transform: rotate(-90deg);-webkit-transform: rotate(-90deg);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
+.layer-img1{position: absolute;left: 50%;width: 110%;height: auto;margin-left: -55%;margin-top: -5%;}
+.layer-img2{position: absolute;width: 73px;top:20%;right: 0px;}
+.layer-t1{font-size: 15.225px;color: #fff;position: absolute;top:10%;left: 5%;line-height: 20px;}
+#layer3-7{position: fixed;z-index: 999;display: none;background: #a0b744;top:0;left:0;
+	transform: rotate(0deg);-webkit-transform: rotate(0deg);}
+#layer3-7 .layer-t1{top:75%;}
+#layer3-7 .layer-img1{  position: absolute;left: 50%;height: 110%;margin-left: -55%;top: 0%;}
+#layer3-18 .layer-t1{top: 60%;left: 80%;}

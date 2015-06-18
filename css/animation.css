@@ -1,0 +1,90 @@
+.text-ease-in{
+	-webkit-animation: show 1s ease-in;
+	animation: show 1s ease-in;
+}
+.camera-drop-down{
+	-webkit-animation: moveFromTop 0.6s ease both 1s;
+	animation: moveFromTop 0.6s ease both 1s;
+}
+.text-float-up{
+	-webkit-animation: moveFromBottom 0.6s ease both 1.6s;
+	animation: moveFromBottom 0.6s ease both 1.6s;
+}
+.stu-1-drop-down{
+	-webkit-animation: moveFromTop 0.6s ease both 0.6s;
+	animation: moveFromTop .6s ease both 1.2s;
+}
+.stu-2-drop-down{
+	-webkit-animation: moveFromTop 0.6s ease both 0.3s;
+	animation: moveFromTop .6s ease both 0.6s;
+}
+.stu-3-drop-down{
+	-webkit-animation: moveFromTop 0.6s ease both;
+	animation: moveFromTop .6s ease both;
+}
+.text-float-up-s3{
+	-webkit-animation: moveFromBottom 0.6s ease both 1.2s;
+	animation: moveFromBottom 0.6s ease both 1.2s;
+}
+.arrow-up{
+	-webkit-animation: moveIconUp ease 1.5s both infinite;
+	animation: moveToBottom ease 1.5s both infinite;
+}
+.float-right-to-left{
+	-webkit-animation: moveFromRight 0.6s ease both 1s;
+	animation: moveFromRight 0.6s ease both 1s;
+}
+.changeopacity{
+	-webkit-animation: copa 0.6s ease both 1.6s;
+	animation: copa 0.6s ease both 1.6s;
+}
+.s4-text-ease-in{
+	-webkit-animation: moveFromBottom 1s ease both 2.2s;
+	animation: moveFromBottom 1s ease both 2.2s;
+}
+@keyframes show{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-webkit-keyframes show{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@keyframes copa{
+	from{opacity: 0;}
+}
+@-webkit-keyframes copa{
+	from{opacity: 0;}
+}
+@-webkit-keyframes moveFromTop {
+	from { -webkit-transform: translateY(-700%); }
+}
+@keyframes moveFromTop {
+	from { 
+		-webkit-transform: translateY(-700%); transform: translateY(-700%); }
+}
+@-webkit-keyframes moveFromBottom {
+	from {opacity: 0; 
+		-webkit-transform: translateY(100%); }
+}
+@keyframes moveFromBottom {
+	from {opacity: 0;
+		 -webkit-transform: translateY(100%); transform: translateY(100%); }
+}
+@-webkit-keyframes moveFromRight {
+	from { -webkit-transform: translateX(50%); }
+}
+@keyframes moveFromRight {
+	from {
+		-webkit-transform: translateX(50%); transform: translateX(50%); }
+}
+@-webkit-keyframes moveIconUp {
+	0% { -webkit-transform: translateY(50%);}
+	50% { -webkit-transform: translateY(0%);}
+	100% { -webkit-transform: translateY(50%);}
+}
+@keyframes moveIconUp {
+	0% { -webkit-transform: translateY(50%); transform: translateY(50%);}
+	50% { -webkit-transform: translateY(0%); transform: translateY(0%);}
+	100% { -webkit-transform: translateY(50%); transform: translateY(50%);}
+}
